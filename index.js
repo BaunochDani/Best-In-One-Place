@@ -131,7 +131,7 @@ bot.on("message", async (message) => {
         let help_embed = new Discord.MessageEmbed()
         .setColor("RANDOM")
         .setTitle("Bot Parancsai")
-        .addField("Fun Parancsok:","%meme, %cat, %ship, %számológép")
+        .addField("Fun Parancsok:","%meme, %cat, %ship, %számológép, %8ball")
         .addField("Moderáció Parancsok:", "%ban, %kick, %report, %mute, %warn, %clear" )
         .addField("Szerver Parancsok:", "%botinfó , %help")
         .addField("Egyéb Parancsok:", "%weather, %szavazás, %szöveg, %teszt")
