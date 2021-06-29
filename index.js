@@ -17,7 +17,7 @@ bot.on("ready", async() => {
     console.log(`${bot.user.username} elindult!`)
    
     let státuszok = [
-        "Help: %",
+        "Infó|%help",
         
         
     ]
