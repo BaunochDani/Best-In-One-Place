@@ -60,7 +60,7 @@ bot.on("message", async message => {
             let dumaEmbed = new Discord.MessageEmbed()
         .setColor("#98AA12")
         .setAuthor(message.author.username)
-        .addField("Szabályzat:", szöveg)
+        .addField("Say:", szöveg)
         .setFooter(`${botname} | ${message.createdAt}`)
     
         message.channel.send(dumaEmbed)
