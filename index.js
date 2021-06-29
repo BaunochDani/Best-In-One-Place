@@ -17,15 +17,15 @@ bot.on("ready", async() => {
     console.log(`${bot.user.username} elindult!`)
    
     let státuszok = [
-        "Prefix: %",
-        "Készítő: Aklime",
-        "Ha kellek írj Aklime-nek"
+        "Help: %",
+        
+        
     ]
 
     setInterval(function() {
         let status = státuszok[Math.floor(Math.random()* státuszok.length)]
 
-        bot.user.setActivity(status, {type: "WATCHING"})
+        bot.user.setActivity(status, {type: "PLAYING"})
     }, 3000)
 })  
 
