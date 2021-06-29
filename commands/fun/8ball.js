@@ -7,7 +7,8 @@ module.exports = {
     run: async (client, message, args) =>{
         let prefix = "%"
         if(!args[1]) return message.reply("Kérlek add meg a kérdést!")
-        let replies = ["Igen", "Persze", "Nem", "Kizárt", "Esélytelen", "Felejtsd el", "Hajrá", "Gyerünk", "Naná", "Van rá esély", "Nem hiszem", "Aha", "100%"];
+        let replies = ["Igen", "Persze", "Nem", "Kizárt", "Esélytelen", "Felejtsd el", "Hajrá", "Gyerünk", "Naná", "Van rá esély", "Nem hiszem", "Aha", "100%", "Buzi vagyok", "Szeretlek", "Hogyne", "Ki nem?","Már amikor", "Sokszor","Éhes vagyok"];
+      
       
         let result = Math.floor((Math.random() * replies.length));
         let kerdes = args.slice(1).join(" ");
