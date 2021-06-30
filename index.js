@@ -9,14 +9,6 @@ const { Client } = require("discord.js-commando");
 const { readdirSync, fstat } = require("fs");
 const ascii = require("ascii-table");
 const fs = require("fs");
-const { GiveawaysManager } = require('discord-giveaways')
-client.giweaways = new GiveawaysManager(client, {
-    storage : './giveaways.json',
-    updateCountdownEvery: 5000,
-    embedColor: '#ff0000',
-    reaction: '🎉'
-})
-
 
 let botname = "Best In One Place"
 
